@@ -1,0 +1,30 @@
+{
+  "name": "study-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@scalar/api-client-react": "^0.1.0",
+    "@scalar/api-reference": "^1.17.11",
+    "@scalar/nextjs-api-reference": "^0.1.38",
+    "@scalar/swagger-editor": "^0.10.12",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "swagger-editor": "^4.12.1",
+    "veaury": "^2.3.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
+}
